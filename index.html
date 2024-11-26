@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== UNICONS ===============-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Portfolio Rolando Lopez</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo"><span>R</span>Lopez</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li><a href="#home" class="nav__link active-link">Inicio</a></li>
+            <li><a href="#about" class="nav__link">Acerca</a></li>
+            <li><a href="#services" class="nav__link">Servicios</a></li>
+            <li><a href="#portfolio" class="nav__link">Portafolio</a></li>
+            <li><a href="#contact" class="nav__link">Contacto</a></li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="ui uil-times"></i>
+          </div>
+        </div>
+
+        <div class="nav__socials">
+
+          <a 
+          href="https://github.com/RolandoLopez16" 
+          target="_blanck"  
+          class="nav__social-link"
+          >
+          <i class="uil uil-github"></i>
+          </a>
+  
+          <a href="https://www.linkedin.com/in/rolando-lopez-miranda/" 
+          target="_blanck"  
+          class="nav__social-link">
+          <i class="uil uil-linkedin"></i>
+          </a>
+        </div>
+
+        <div class="nav__btns">
+          <a href="#contact" class="nav__link-btn btn">Hablemos</a>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-bars"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <!--=============== HOME ===============-->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <div class="home__conten">
+            <span class="home__subtitle">Bienvenido a mi mundo</span>
+            <h1 class="home__title">
+              Hola, Soy RolandoDev
+              <span>Desarrollador Jr</span> 
+              <br>Ubicado en Colombia</br>
+            </h1> 
+          </div>
+          <img src="assets/img/logo.png" alt="" class="home__img">
+        </div>
+      </section>
+
+      <!--=============== ABOUT ===============-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <img src="assets/img/about2.png" alt="" class="about__img">
+          <div class="about__content">
+            <h2 class="section__title">Acerca de mi</h2>
+
+            <p class="abuot__description">
+              Soy Rolando López, ingeniero de sistemas con 12 años de experiencia en tecnología, 
+              actualmente en EFAGRAM SAS. He trabajado en diversas empresas en roles como administrador
+              de bases de datos (SQL Server 2016), analista de datos, Scrum Master y desarrollador de 
+              aplicaciones en C# con Blazor y de sitios web en React, HTML, CSS y JavaScript. Soy creativo 
+              y proactivo, siempre enfocado en soluciones innovadoras. Mi visión es fundar una empresa de 
+              desarrollo enfocada en crear sistemas para la industria forestal, ayudando a optimizar procesos 
+              y avanzar en la transformación digital del sector.
+            </p>
+            <div class="tabs__btns">
+              <span class="tabs__btn tab__active" data-target="#habilidades">Habilidades principales</span>
+              <span class="tabs__btn" data-target="#trabajos">Trabajos realizados</span>
+              <span class="tabs__btn" data-target="#experiencia">Experiencia</span>
+              <span class="tabs__btn" data-target="#educacion">Educacion y certificaciones</span>
+            </div>
+
+            <div class="tabs__content">
+              <div class="tabs__item tab__active"data-content id="habilidades">
+                <div class="tabs__data grid">
+                  <p class="tabs__desciption">
+                  <span>Bases de datos</span> Sql server 2016 <span>Administrador de bases de datos</span>          
+                  </p>
+                  <p class="tabs__desciption">
+                    <span>Desarrollo web</span> React <span> Creador de aplicaciones web</span>          
+                  </p> 
+                  <p class="tabs__desciption">
+                    <span>Analista de datos</span> PowerBI <span>Analista de datos y creador de dashboard</span>          
+                  </p>
+                </div>
+              </div>
+              <div class="tabs__item" data-content id="trabajos" >
+                <div class="tabs__data grid">
+                  <p class="tabs__desciption">
+                  <span>servicios-web-iii-corte-fr.vercel.app</span> ServiApp <span>App para controlar los viajes de una empresa</span>          
+                  </p>
+                </div>
+              </div>
+
+              <div class="tabs__item"data-content id="experiencia">
+                <div class="tabs__data grid">
+                  <p class="tabs__desciption">
+                  <span>Ingeniero de sistemas</span> Efagram SAS <span>Ingeniero jefe de sistemas 2020 a la fecha.</span>          
+                  </p>
+                  <p class="tabs__desciption">
+                    <span>Coordinador de sistemas</span> Comfacauca <span>Administrador de sistema de credito 2010 - 2018</span>          
+                  </p> 
+                </div>
+              </div>
+              <div class="tabs__item"data-content id="educacion">
+                <div class="tabs__data grid">
+                  <p class="tabs__desciption">
+                  <span>Ingeniería de sistemas</span>Unicomfacauca<span>Actualmente en X semestre de la carrera.</span>          
+                  </p>
+                  <p class="tabs__desciption">
+                    <span>Técnico profesional en sistemas</span> SENA <span> Popayán - Cauca 2006</span>          
+                  </p> 
+                  <p class="tabs__desciption">
+                    <span>Auditor interno de calidad ISO 9001 V2008 y 2011</span> AHG consultores <span>Seminario en Pereira.</span>          
+                  </p>
+                  <p class="tabs__desciption">
+                    <span>Auditor interno de calidad ISO 9001 V2008 y 2011</span> AHG consultores <span>Seminario en Pereira.</span>          
+                  </p>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <!--=============== SERVICES ===============-->
+      <section class="services section" id="services">
+        <h2 class="section__title">SERVICIOS</h2>
+        <p class="section__description">Ofrezco servicios de administración y optimización
+           de bases de datos, desarrollo de aplicaciones en C# y Blazor, y desarrollo web
+            utilizando React, HTML, CSS y JavaScript. Mi experiencia abarca desde la implementación
+             de soluciones ágiles como Scrum Master hasta el análisis avanzado de datos y
+              la automatización de procesos con Excel. Cada servicio está orientado a mejorar
+               la eficiencia y funcionalidad de los sistemas empresariales, con un enfoque en la
+                innovación y la adaptabilidad a las necesidades específicas de cada cliente.
+        </p>
+        <div class="services__container container grid">
+          <div class="services__item">
+            <i class="uil uil-database services__icon"></i>
+
+            <h3 class="services__title"> Administrador de  Bases de datos</h3>
+            <p class="services__description">Administrador de bases de datos con experiencia en SQL Server,
+               especializado en optimización, seguridad y respaldo de información, asegurando disponibilidad
+                y eficiencia para entornos empresariales con soluciones adaptadas a cada necesidad.</p>
+          </div>
+          <div class="services__item">
+            <i class="uil uil-layer-group services__icon"></i>
+
+            <h3 class="services__title"> Desarrollador web</h3>
+            <p class="services__description">Desarrollador web con experiencia en React, HTML, CSS y JavaScript,
+               enfocado en crear interfaces dinámicas y funcionales que mejoren la experiencia del usuario
+                y optimicen el rendimiento de aplicaciones web.</p>
+          </div>
+          <div class="services__item">
+            <i class="uil uil-chart-pie-alt services__icon"></i>
+
+            <h3 class="services__title"> Analista de datos</h3>
+            <p class="services__description">Analista de datos experto en Power BI, 
+              especializado en transformar datos en informes visuales claros y detallados, 
+              brindando insights estratégicos para una mejor toma de decisiones empresariales 
+              y optimización de procesos.</p>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== PORTFOLIO ===============-->
+      <section class="portfolio section" id="portfolio">
+      <h2 class="section__title">Mis proyectos y colaboraciones</h2>
+
+    <p class="section__description">En mi portafolio encontrarás una selección de proyectos destacados
+       y colaboraciones clave que reflejan mi experiencia y habilidades en el desarrollo y liderazgo 
+       de soluciones tecnológicas Cada uno de estos proyectos representa mi compromiso con la calidad, 
+       innovación y trabajo en equipo. ¡Explora mi portafolio para conocer más detalles!</p>
+
+       <div class="portfolio__container container grid">
+        <div class="portfolio__item">
+          <img src="assets/img/portafolio1.png" alt="" class="portfolio__img">
+
+          <div class="portfolio__data">
+            <p class="portfolio__subtitle">ServiApp</p>
+            <h3 class="portfolio__title">Desarrollo web</h3>
+            <p class="portfolio__description">Aplicación diseñada para el control de conductores de la empresa ServiEspeciales.</p>
+          </div>
+        </div>
+
+        <div class="portfolio__item">
+          <img src="assets/img/portafolio2.png" alt="" class="portfolio__img">
+
+          <div class="portfolio__data">
+            <p class="portfolio__subtitle">Foresync</p>
+            <h3 class="portfolio__title">Aplicacion web y empresa</h3>
+            <p class="portfolio__description">Scrum Master y socio fundador de la aplicación Foresync.</p>
+          </div>
+        </div>
+
+        <div class="portfolio__item">
+          <img src="assets/img/portafolio3.png" alt="" class="portfolio__img">
+
+          <div class="portfolio__data">
+            <p class="portfolio__subtitle">Aplicacion de inventario</p>
+            <h3 class="portfolio__title">Desarrollo web</h3>
+            <p class="portfolio__description">Participación en la creación de una aplicación de gestión de inventarios para Efagram.</p>
+          </div>
+        </div>
+
+        
+       </div>
+      </section>
+
+      <!--=============== CONTACT ===============-->
+      <section class="contact section" id="contact">
+        <div class="contact__container container grid">
+          <div class="contact__content">
+            <h2 class="section__title">Contactame</h2>
+
+            <p class="contact__description">Estoy disponible para trabajar freelance. Conéctate conmigo por teléfono: <a href="tel:+573205614314">+573205614314</a>  o por correo electrónico: 
+              <a href="mailto:rolandolopez@unicomfacauca.edu.co"> rolandolopez@unicomfacauca.edu.co</a>
+            </p>
+
+            <form class="contact__form" id="contact-form">
+              <div class="contact__form-input">
+                <input 
+                type="text" 
+                name="name" 
+                placeholder="tu nombre" 
+                class="contact__input"
+                id="contact-name"
+                />
+
+              </div>
+
+              <div class="contact__form-input">
+                <input 
+                type="email" 
+                
+                placeholder="tu correo" 
+                class="contact__input"
+                id="contact-email"
+                />
+
+              </div>
+
+
+              
+              <div class="contact__form-input">
+                <input 
+                type="text" 
+                name="subject" 
+                placeholder="escribe un tema" 
+                class="contact__input"
+                id="contact-subject"
+                />
+
+              </div>
+
+                            
+              <div class="contact__form-input">
+                <textarea name="message" id="contact-message" class="contact__input textarea" placeholder="tu mensaje"></textarea>
+              </div>
+
+              <input type="submit" value="submit" class="btn">
+
+              <p class="error__message" id="error-message"></p>
+            </form>
+          </div>
+
+          <img src="assets/img/home.jpeg" alt="" class="contact__img">
+        </div>
+      </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <a href="index.html" class="footer__logo"><span>R</span>Lopez</a>
+
+        <div class="footer__socials">
+
+        <a 
+        href="https://github.com/RolandoLopez16" 
+        target="_blanck"  
+        class="footer__social-link"
+        >
+        <i class="uil uil-github"></i>
+        </a>
+
+        <a href="www.linkedin.com/in/rolando-lopez-miranda" 
+        target="_blanck"  
+        class="footer__social-link">
+        <i class="uil uil-linkedin"></i>
+        </a>
+      </div>
+
+        <p class="footer__copyright">&copy; 2023. All rights reserved</p>
+      </div>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-angle-up scrollup__icon"></i>
+    </a>
+
+    <!--=============== EMAIL JS ===============-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
